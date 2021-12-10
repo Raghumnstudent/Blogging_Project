@@ -1,0 +1,7 @@
+1)Initially My Blogging Page is Emty, 
+click on Post_Article Button to Post article, 
+after submit post, click Refresh button to view your post.
+2)when you click on login, it go to login page
+3)when you click on Registration, it go to Registration page
+4)when you click on Home, it go to Home page
+5)when you click on login, it go to login page

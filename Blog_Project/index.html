@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogging Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<style>
+   
+</style>
+
+<body> 
+    
+    <div class="card text-center" style="color: rgb(61, 202, 61);text-decoration: wavy;">
+        <b class="card-header" >Welcome to Blogging Page</b>
+    </div>
+    
+    <style>
+        * {box-sizing: border-box}
+    body {font-family: Arial, Helvetica, sans-serif;}
+
+    .navbar {
+        width: 100%;
+        background-color: #555;
+    overflow: auto;
+    }
+
+    .navbar a {
+        float: left;
+        padding: 12px;
+        color: white;
+        text-decoration: none;
+        font-size: 35px;
+        width: 25%; /* Four links of equal widths */
+        text-align: center;
+    }
+
+    .navbar li:hover {
+        background-color: #000;
+        width: "100%";
+    }
+
+    .navbar  {
+    background-color: #29d6b9;
+    }
+
+    @media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    }
+
+    </style>
+    <script src="script.js"></script>   
+        <ul class="navbar" id="ra" style="text-align: center;">
+            <li class="nav-item"><a class="nav-link active"  href="info-demo.html" target="_blank">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="register-demo.html" target="_blank">Register</a></li>
+            <li class="nav-item"><a class="nav-link active" href="login-demo.html" target="_blank">Login</a></li>
+            <li class="nav-item"><a class="nav-link active" href="post-demo.html" target="_blank">Post_Article</a></li>
+            <li><button type="display" id="dis">Refresh To View Updated Posts</button></li>   
+        </ul>
+       
+    <h4></h4>
+    <marquee><h4>Note: Initially My Blogging Page is Emty, click on Post_Article Button to Post article, after submit post, click Refresh button to view your post.</h4></marquee>
+    <h1 id="main"></h1>
+    <script>
+        // display()
+        document.getElementById('dis')
+        .addEventListener('click',display)
+        const myform = document.getElementById("ra")
+        myform.addEventListener("display",(e)=>{e.preventDefault();});
+    </script>
+    
+    <div class="card text-center" style="color: rgb(61, 202, 61);text-decoration: wavy;">
+        <b class="card-footer" >Thank You</b>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
